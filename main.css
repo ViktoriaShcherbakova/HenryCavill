@@ -13,3 +13,7 @@
 .about h2 {
     text-align: center;
 }
+
+.mainPage li {
+    list-style-type: none;
+}
