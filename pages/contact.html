@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+</head>
+<body>
+<h2>
+    Contacts:
+</h2>
+<p>Email: henry.cavill@gmail.com</p>
+<p>Phone number: +16501234567</p>
+<p>Or leave your message and we will contact you</p>
+<form action="#">
+    <div>
+        <input type="text" placeholder="Name" pattern="^[a-zA-Z]*" required>
+    </div>
+    <br>
+    <div>
+        <input type="text" placeholder="email" pattern="^[^ ]+@[^ ]+\.[a-z]{2,20}$" required>
+        Format: email@example.com
+    </div>
+    <br>
+    <div>
+        <input type="tel" placeholder="Phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+        Format: xxx-xx-xxx
+    </div>
+    <br>
+    <div>
+        <textarea placeholder="Description" required minlength="10" maxlength="100"></textarea>
+        Length: 10-100 symbols
+    </div>
+
+    <br>
+    <button type="reset">Reset</button>
+    <button type="submit">Send</button>
+</form>
+
+<table>
+    <tr>
+        <th>
+            <a href="../index.html" target="_blank">Main page</a>
+        </th>
+        <th>
+            <a href="./gallery.html" target="_blank">Gallery</a>
+        </th>
+        <th>
+            <a href="./about.html" target="_blank">About</a>
+        </th>
+    </tr>
+</table>
+</body>
+</html>
